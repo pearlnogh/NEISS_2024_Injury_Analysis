@@ -26,3 +26,12 @@ https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx
    `neiss_2024_raw.xlsx`
 
 7. Place the file in the `raw_data/` directory
+
+### Data Dictionary
+
+Access Link: https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data
+
+A data dictionary describing variables is included as `raw_data/neiss_2022_dictionary.xlsx`.
+This file was downloaded from the official NEISS website and provides detailed definitions
+for variables in the archived annual data. Note that it is for 2022; 2024 variables may differ slightly.
+
