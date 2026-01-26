@@ -7,7 +7,8 @@ This project analyzes nationally representative 2024 emergency department injury
 NEISS_2024_Injury_Analysis/
 │
 ├── raw_data/                          # Original unmodified datasets
-│   └── neiss_2024_raw.xlsx
+│   ├── neiss_2024_cleaned.xlsx
+│   └── neiss_2022_dictionary.xlsx   
 │
 ├── cleaned_data/                      # Datasets after preprocessing
 │   ├── neiss_2024_cleaned.xlsx
