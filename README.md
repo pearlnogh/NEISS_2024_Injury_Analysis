@@ -1,11 +1,9 @@
 # Factors Associated with Hospital Admission After Emergency Department Injury Visits: A Nationally Representative Analysis Using NEISS 2024 Data.
---
 ## Project Overview
---
 This project analyzes nationally representative 2024 emergency department injury data from the National Electronic Injury Surveillance System (NEISS) to examine how demographic, injury-related, and incident characteristics are associated with patient disposition.
---
-## Project Structure
 
+## Project Structure
+```text
 NEISS_2024_Injury_Analysis/
 │
 ├── raw_data/                          # Original unmodified datasets
@@ -35,3 +33,10 @@ NEISS_2024_Injury_Analysis/
 ├── requirements.txt                   # Python dependencies
 │
 └── README.md                          # Project documentation
+```
+
+## Team Members
+Ameenat Ali
+Foluso Ojo
+Gurpreet Kaur
+Pei- Ru Chen
