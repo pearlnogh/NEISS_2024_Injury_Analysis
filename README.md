@@ -11,19 +11,26 @@ NEISS_2024_Injury_Analysis/
 │   └── neiss_2022_dictionary.xlsx
 │
 ├── cleaned_data/                        # Datasets after preprocessing
-│   ├── neiss_2024_cleaned.xlsx
-│   └── neiss_2024_dictionary.xlsx
+│   ├── neiss_2024_cleaned.csv
+│   └── neiss_2024_dictionary.csv
 │
 ├── notebooks/                           # Python workflow scripts
 │   ├── 01_data_overview.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_eda.ipynb
 │   ├── 04_statistical_analysis.ipynb
-│   ├── 05_feature_engineering.ipynb
-│   └── 06_machine_learning_model.ipynb
+│   ├── 05_modeling_baseline.ipynb
+│   └── 06_modeling_iteration.ipynb
+│  
+├── models/                             
+│   ├── model_baseline.pkl
+│   ├── model_iteration.pkl
+│   └── model_columns.pkl
+│
+├── app/                                
+│   └── app.py  
 │
 ├── docs/                                # Final Project Deliverables
-│   ├── data_dictionary.md
 │   ├── neiss_2024_final_report.pdf
 │   └── tableau/
 │
@@ -32,7 +39,7 @@ NEISS_2024_Injury_Analysis/
 ```
 
 ## Team Members
-Ameenat Ali
-Foluso Ojo
-Gurpreet Kaur
-Pei- Ru Chen
+- Ameenat Ali
+- Foluso Ojo
+- Gurpreet Kaur
+- Pei- Ru Chen
