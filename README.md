@@ -11,8 +11,7 @@ NEISS_2024_Injury_Analysis/
 │   └── neiss_2022_dictionary.xlsx
 │
 ├── cleaned_data/                        # Datasets after preprocessing
-│   ├── neiss_2024_cleaned.csv
-│   └── neiss_2024_dictionary.csv
+│   └── neiss_2024_cleaned.csv
 │
 ├── notebooks/                           # Python workflow scripts
 │   ├── 01_data_overview.ipynb
@@ -24,15 +23,14 @@ NEISS_2024_Injury_Analysis/
 │  
 ├── models/                             
 │   ├── model_baseline.pkl
-│   ├── model_iteration.pkl
-│   └── model_columns.pkl
+│   └── model_iteration.pkl
 │
 ├── app/                                
 │   └── app.py  
 │
 ├── docs/                                # Final Project Deliverables
 │   ├── neiss_2024_final_report.pdf
-│   └── tableau/
+│   └── ppt/
 │
 ├── requirements.txt                     # Python dependencies
 └── README.md                            # Project documentation
