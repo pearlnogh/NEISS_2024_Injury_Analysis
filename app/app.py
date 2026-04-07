@@ -67,7 +67,6 @@ html,body,[class*="css"]{ font-family:'Source Sans 3',sans-serif; }
     color:var(--gold); background:var(--navy); display:inline-block;
     padding:3px 10px; border-radius:10px; margin-bottom:.6rem;
 }
-/* ── All buttons: base ── */
 div[data-testid="stButton"] > button {
     border-radius: 8px !important; font-size: 15px !important; font-weight: 600 !important;
     padding: .65rem 1.5rem !important; width: 100% !important; letter-spacing: .03em;
@@ -79,9 +78,6 @@ div[data-testid="stButton"] > button:hover {
     background: #1B3A6B !important;
     box-shadow: 0 4px 14px rgba(44,90,160,0.28) !important;
 }
-/* ── Secondary: Apply description signal (key=ai_btn) ── */
-div[data-testid="stButton"]:has(button[data-testid="baseButton-secondary"]) > button,
-button[kind="secondaryFormSubmit"],
 div[data-testid="column"]:first-child div[data-testid="stButton"] > button {
     background: #EAF2FF !important; color: #2C5AA0 !important;
     border: 1.5px solid #B5D4F4 !important; box-shadow: none !important; font-weight: 500 !important;
@@ -89,7 +85,6 @@ div[data-testid="column"]:first-child div[data-testid="stButton"] > button {
 div[data-testid="column"]:first-child div[data-testid="stButton"] > button:hover {
     background: #D6E8FF !important; color: #1B3A6B !important;
 }
-/* ── Ghost: Clear button — second column ── */
 div[data-testid="column"]:last-child div[data-testid="stButton"] > button {
     background: transparent !important; color: #7A869A !important;
     border: 1.5px solid #D0D7E2 !important; box-shadow: none !important; font-weight: 500 !important;
