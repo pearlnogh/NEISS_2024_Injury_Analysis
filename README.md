@@ -29,8 +29,8 @@ NEISS_2024_Injury_Analysis/
 │   └── app.py  
 │
 ├── docs/                                # Final Project Deliverables
-│   ├── neiss_2024_final_report.pdf
-│   └── ppt/
+│   ├── Final_Report.pdf
+│   └── NEISS_2024_Injury_Analysis.pptx
 │
 ├── requirements.txt                     # Python dependencies
 └── README.md                            # Project documentation
